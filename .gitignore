@@ -1,0 +1,36 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.dylib
+
+# Executables
+aio_http
+thread_http
+kqueue_http
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.claude/
+
+# Test results
+results/
+*.log
+*.txt
+
+# Core dumps
+core
+*.core
+
+# Dependencies
+node_modules/
+
+# System
+.DS_Store
+Thumbs.db
